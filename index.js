@@ -133,7 +133,7 @@ function isSolved() {
     if (arraySolved == arrayPattern && arrayPattern != "") {
         $("h1").text("Correct!!");
         setTimeout(function () {
-            $("h1").text("Level invcreased!! " + currentLevel + " -> " + (++currentLevel));
+            $("h1").text("Level increased!! " + currentLevel + " -> " + (++currentLevel));
         }, 1000);
         setTimeout(function () {
             $("h1").text("Level " + currentLevel);
